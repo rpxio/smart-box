@@ -3,26 +3,27 @@
   "hostname": "plex",
   "brand": "lx",
   "kernel_version": "4.8.0",
-  "image_uuid": "",
+  "image_uuid": "7b5981c4-1889-11e7-b4c5-3f3bdfc9b88b",
   "max_physical_memory": 4096,
   "resolvers": ["8.8.4.4", "4.2.2.2"],
   "nics": [
     {
       "nic_tag": "admin",
-      "ip": "10.1.10.4",
+      "ip": "10.1.10.10",
       "netmask": "255.255.255.0",
-      "gateway": "10.1.10.1"
+      "gateway": "10.1.10.1",
+      "primary": "1"
     }
   ],
   "filesystems": [
     {
       "type": "lofs",
-      "source": "/zones/storage",
+      "source": "/zones/storage/plex",
       "target": "/storage/plex"
     },
         {
       "type": "lofs",
-      "source": "/zones/downloads",
+      "source": "/zones/storage/downloads",
       "target": "/storage/downloads"
     }
   ]
