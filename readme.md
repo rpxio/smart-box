@@ -7,7 +7,7 @@ Note: you can use `git clone` if you have `git` installed in the global zone on 
 ## DIY
 `$ imgadm update`  
 `$ imgadm import 7b5981c4-1889-11e7-b4c5-3f3bdfc9b88b`  
-`$ vim plex.json`
+`$ vim plex.json`  
 `[paste contents in new plex.json file]`   
 `$ vmadm validate create -f plex.json`  
 `$ vmadm create -f plex.json`  
