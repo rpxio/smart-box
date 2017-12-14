@@ -2,7 +2,7 @@
 
 These are just for my personal use, but feel free to modify and try them for yourself. The json files just provision the zones as I like them- you'll still need to connect to each and install the services required.
 
-Note: you can use `git clone` if you have `git` installed in the global zone on your SmartOS. Otherwise, just copy and paste.
+Note: you can use `git clone` if you have `git` installed in the global zone on SmartOS. Otherwise, just copy and paste.
 
 ## DIY
 `$ imgadm update`  
